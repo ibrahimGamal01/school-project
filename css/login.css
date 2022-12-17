@@ -1,0 +1,21 @@
+#loginh1{
+    text-align: center;
+
+}
+input{
+    background-color: rgba(30, 51, 57, 0.558);
+    border-radius: 15px 50px 30px;
+    
+}
+label{
+    text-shadow: 1ch;
+    font: bold 15px arial italic;
+}
+textarea{
+    border-radius: 15px 50px 30px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}

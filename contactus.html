@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="css/contactus.css" />
+    <style></style>
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+
+    <!--enctype="text/plain" otherwise it will be hard to read the content -->
+    <form
+      action="mailto:ibrahimg0987@gmail.com"
+      method="post"
+      enctype="text/plain" 
+    >
+      <div>
+        <label for="fname">First Name: </label>
+        <input type="text" name="fname" class="" />
+        <label for="lname">Last Name: </label>
+        <input type="text" name="lname" class="" />
+      </div>
+      <div>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" class="" />
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea name="message" class="" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+        <input type="file" name="file" class="" />
+      </div>
+      <input type="submit" value="Send" />
+    </form>
+
+    <h1>Contact Informatiom</h1>
+    <div style="background-color: aquamarine; display: inline-block">
+      <p style="color: rgba(96, 96, 96, 0.868)">
+        Fill up this form and our team will come back to you within 24 hours.
+      </p>
+      <a href="index.html">Visit Homepage</a>
+      <br />
+      <a href="mailto:ibrahimg01897@gmail.com">ibrahimg01897@gmail.com</a>
+      <br />
+      <a href="tel:+201019318207">01019318207</a>
+    </div>
+  </body>
+</html>

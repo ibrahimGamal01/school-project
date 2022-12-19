@@ -1,9 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <!-- <meta charset="UTF-8" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome Home</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .bg-image {
+        /* The image used */
+        background-image: url("src/hospital-clinic-building-with-ambulance-car-truck_107791-2645.jpg");
+
+        /* Add the blur effect */
+
+        -webkit-filter: blur(8px);
+        filter: blur(8px);
+
+        /* Full height */
+        height: 100%;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      /* Position text in the middle of the page/image */
+      .bg-text {
+        background-color: rgb(0, 0, 0); /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+        color: white;
+        font-weight: bold;
+        border: 3px solid #f1f1f1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="contactus.html">Contact</a></li>
+          <li><a href="login.html">LOG IN</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="bg-image"></div>
+
+    <div class="bg-text">
+      <h2>Welcome</h2>
+      <h1 style="font-size: 50px">We are here to make your life easier.</h1>
+      <p>We are everywhare</p>
+    </div>
+  </body>
 </html>
